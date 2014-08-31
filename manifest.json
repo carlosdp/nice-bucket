@@ -13,5 +13,9 @@
       "matches":["https://www.facebook.com/*"],
       "js":["jquery.js", "nice-bucket.js"]
     }
-  ]
+    ],
+    "web_accessible_resources": [
+      "jquery.js",
+      "nice-bucket.js"
+    ]
 }
