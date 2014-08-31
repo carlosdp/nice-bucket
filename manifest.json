@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+    "name": "Nice Bucket",
+    "version": "1.0.0",
+    "description": "Filter Ice Bucket challenge posts from Facebook.",
+    "default_locale": "en",
+    "icons":{
+    },
+    "content_scripts":[
+    {
+      "matches":["https://www.facebook.com/*"],
+      "js":["jquery.js", "nice-bucket.js"],
+    }
+  ]
+}
