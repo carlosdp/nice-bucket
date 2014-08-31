@@ -3,13 +3,15 @@
     "name": "Nice Bucket",
     "version": "1.0.0",
     "description": "Filter Ice Bucket challenge posts from Facebook.",
-    "default_locale": "en",
     "icons":{
+      "16": "images/bucket16.png",
+      "64": "images/bucket64.png",
+      "128": "images/bucket128.png"
     },
     "content_scripts":[
     {
       "matches":["https://www.facebook.com/*"],
-      "js":["jquery.js", "nice-bucket.js"],
+      "js":["jquery.js", "nice-bucket.js"]
     }
   ]
 }
